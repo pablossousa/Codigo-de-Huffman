@@ -12,6 +12,14 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 
 <h2>Exemplo de Execução</h2>
 
+<p align="center">
+  <img src="imagens/exExecucao.png">  
+</p> 
+
+<p align="center">
+  <img src="imagens/compressao.png">  
+</p> 
+
 <h2>Compilação e Execução</h2>
 
 <p align="justify">
