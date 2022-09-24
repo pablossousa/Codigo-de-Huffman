@@ -38,7 +38,7 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 </p>
   
 <h2> Resolução </h2>
-Uma parte da resolução do problema foi baseada de [HashTable](https://github.com/mpiress/HashTable) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: lerMatriz(), multMatriz(), initialize() e hash().
+Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github.com/Kingdrasill/Tokenizacao) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: lerMatriz(), multMatriz(), initialize() e hash().
 
 <h2>Exemplo de Execução</h2>
 
