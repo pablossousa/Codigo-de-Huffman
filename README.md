@@ -8,16 +8,7 @@ Uma das melhores técnicas de compressão conhecidas é devido ao Huffman. Para 
 <p align="justify">
 O algoritmo de Huffman original baseia-se no método guloso e constrói um código ótimo com esforço computacional O(n.logn). Existem novas versões que constroem o código de Huffman com esforço computacional O(n), mas e necessário que as frequências já estejam ordenadas. Como o problema de ordenaçãao tem cota inferior Ω(n.logn), isto é, não existe um algoritmo que consiga ordenar as frequências com esforço computacional menor, o esforço computacional para construir o código de Huffman é Θ(n.logn).
 </p>
-  
-<h2> Problema </h2>
 
-<p align="justify">
-Elabore uma árvore binária que utilize o código de Huffman para comprimir arquivos. Para tanto, (1) contabilizar a recorrência de cada palavra (RP) no arquivo; (2) normalizar a contabilização entre 0 e 1 utilizando a formula -> RP / (max(RP) - min(RP)); (3) Montar a árvore com as regras apresentadas por Huffman; (4) Troque as palavras pela codificação binária (utilizar booleano para representar 0 e 1); (5) Salve o arquivo em formato binário e observe qual foi o ganho de espaço obtido.
-</p>
-  
-  <p align="justify">
-Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem como, exemplos para representar funcionalidades da aplicação. Feito isso, demonstre um desses exemplos em execução para detalhar para o leitor o que ele deve esperar como saída. Além disso, detalhe tudo que for importante no código e mostre como deve ser compilado.
-</p>
 
 <div align="center">
   
@@ -35,6 +26,16 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 | 9 | 0.04 |
   
 </div>
+  
+<h2> Problema </h2>
+
+<p align="justify">
+Elabore uma árvore binária que utilize o código de Huffman para comprimir arquivos. Para tanto, (1) contabilizar a recorrência de cada palavra (RP) no arquivo; (2) normalizar a contabilização entre 0 e 1 utilizando a formula -> RP / (max(RP) - min(RP)); (3) Montar a árvore com as regras apresentadas por Huffman; (4) Troque as palavras pela codificação binária (utilizar booleano para representar 0 e 1); (5) Salve o arquivo em formato binário e observe qual foi o ganho de espaço obtido.
+</p>
+  
+  <p align="justify">
+Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem como, exemplos para representar funcionalidades da aplicação. Feito isso, demonstre um desses exemplos em execução para detalhar para o leitor o que ele deve esperar como saída. Além disso, detalhe tudo que for importante no código e mostre como deve ser compilado.
+</p>
   
 <h2> Resolução </h2>
 Uma parte da resolução do problema foi baseada de [Tokenização e Ranqueamento de Documentos]([https://github.com/mpiress/HashTable](https://github.com/Kingdrasill/Tokenizacao)) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: lerMatriz(), multMatriz(), initialize() e hash().
