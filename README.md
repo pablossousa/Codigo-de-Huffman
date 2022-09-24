@@ -43,7 +43,11 @@ Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github
 </p>
 
   <p align="justify">
-Primeiramente, em <i>stockMap()</i>, fica responsável por ler o arquivo que o usuário informar. Além disso, usa o "umap" para definir chaves das palavras já percorridas. No método <i>arvore()</i>, gera uma árvore preenchendo-a com a Hash guardando os digitos e caracteres repetitivos
+Primeiramente, em <i>stockMap()</i>, fica responsável por ler o arquivo que o usuário informar. Além disso, usa o "umap" para definir chaves das palavras já percorridas. No método <i>arvore()</i>, gera uma árvore preenchendo-a com a Hash guardando os digitos e caracteres repetitivos.
+</p>
+
+  <p align="justify">
+O método <i>tamArvore()</i>, com base na codificação de Huffman, preenche a árvore de acordo com o valor de cada palavra do arquivo inserido pelo usuário. E, por fim,  <i>compressao()</i>, adiciona no arquivo "compressao.txt" os valores finais alcançados pelo algoritmo de Huffman, escrevendo em números binários as soluções das funções de procurar na Hash a tradução de cada palavra como vetor booleano.
 </p>
 
 <p align="center">
