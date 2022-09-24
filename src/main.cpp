@@ -14,7 +14,7 @@ int main() {
 	map->arvore(&T);
 	
 	tamArvore(&T);
-	compressao(&T,nome);
+	compressao(&T, nome);
 
 	cout << "Foi gerado o arquivo comprimido chamado 'compressao.txt'" << endl;
 
