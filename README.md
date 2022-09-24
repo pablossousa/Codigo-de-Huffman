@@ -41,7 +41,7 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github.com/Kingdrasill/Tokenizacao) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: fillMap(), arvore(), tamArvore() e compressao().
 
 <p align="center">
-  <img src="imagens/main.png">  
+  <img src="imagens/intMain.png">  
 </p> 
 
 <h2>Exemplo de Execução</h2>
