@@ -1,4 +1,4 @@
-# Codigo-de-Huffman
+# Código de Huffman
 
 <h2> Problema </h2>
 
