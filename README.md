@@ -17,13 +17,13 @@ O algoritmo de Huffman original baseia-se no método guloso e constrói um códi
 | 0 | 0,20 |
 | 1 | 0,25 |
 | 2 | 0,15 |
-| 3 | 0.08 |
-| 4 | 0.07 |
-| 5 | 0.06 |
-| 6 | 0.05 |
-| 7 | 0.05 |
-| 8 | 0.05 |
-| 9 | 0.04 |
+| 3 | 0,08 |
+| 4 | 0,07 |
+| 5 | 0,06 |
+| 6 | 0,05 |
+| 7 | 0,05 |
+| 8 | 0,05 |
+| 9 | 0,04 |
   
 </div>
   
@@ -39,6 +39,10 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
   
 <h2> Resolução </h2>
 Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github.com/Kingdrasill/Tokenizacao) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: fillMap(), arvore(), tamArvore() e compressao().
+
+<p align="center">
+  <img src="imagens/main.png">  
+</p> 
 
 <h2>Exemplo de Execução</h2>
 
