@@ -40,6 +40,8 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 <h2> Resolução </h2>
 Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github.com/Kingdrasill/Tokenizacao) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: fillMap(), arvore(), tamArvore() e compressao().
 
+Primeiramente, em <i>fillMap()</i>
+
 <p align="center">
   <img src="imagens/intMain.png">  
 </p> 
