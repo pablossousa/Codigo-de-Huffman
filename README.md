@@ -19,10 +19,10 @@ Elabore uma árvore binária que utilize o código de Huffman para comprimir arq
 Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem como, exemplos para representar funcionalidades da aplicação. Feito isso, demonstre um desses exemplos em execução para detalhar para o leitor o que ele deve esperar como saída. Além disso, detalhe tudo que for importante no código e mostre como deve ser compilado.
 </p>
 
-<center>
-
-| Símbolo                |  Frequência|                     
-| :-----------------------:| :-----------:|
+<div align="center">
+  
+| Símbolo  |  Frequência|                     
+| :-------:| :-----------:|
 | 0 | 0,20 |
 | 1 | 0,25 |
 | 2 | 0,15 |
@@ -33,8 +33,8 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 | 7 | 0.05 |
 | 8 | 0.05 |
 | 9 | 0.04 |
-
-</center>
+  
+</div>
   
 <h2> Resolução </h2>
 
