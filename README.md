@@ -38,9 +38,13 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 </p>
   
 <h2> Resolução </h2>
-Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github.com/Kingdrasill/Tokenizacao) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: fillMap(), arvore(), tamArvore() e compressao().
+<p align="justify">
+Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github.com/Kingdrasill/Tokenizacao) e deu-se por meio de alguns métodos para auxiliar na solução. Estes métodos são: <i>stockMap()</i>, <i>arvore()</i>, <i>tamArvore()</i> e <i>compressao()</i>.
+</p>
 
-Primeiramente, em <i>fillMap()</i>
+  <p align="justify">
+Primeiramente, em <i>stockMap()</i>, fica responsável por ler o arquivo que o usuário informar. Além disso, usa o "umap" para definir chaves das palavras já percorridas. No método <i>arvore()</i>, 
+</p>
 
 <p align="center">
   <img src="imagens/intMain.png">  
