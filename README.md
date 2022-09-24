@@ -12,6 +12,9 @@ Elabore um Readme.mb explicando toda lógica utilizada na implementação, bem c
 
 <h2>Exemplo de Execução</h2>
 
+<p align="justify">
+Ao informar o nome do arquivo com a extensão, o programa o abre normalizando a contabilização e gera um arquivo com números binários representado cada palavra do texto ignorando algumas stop words.
+</p>
 <p align="center">
   <img src="imagens/exExecucao.png">  
 </p> 
