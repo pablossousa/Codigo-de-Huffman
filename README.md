@@ -43,7 +43,7 @@ Uma parte da resolução do problema foi baseada de [Tokenizacao](https://github
 </p>
 
   <p align="justify">
-Primeiramente, em <i>stockMap()</i>, fica responsável por ler o arquivo que o usuário informar. Além disso, usa o "umap" para definir chaves das palavras já percorridas. No método <i>arvore()</i>, 
+Primeiramente, em <i>stockMap()</i>, fica responsável por ler o arquivo que o usuário informar. Além disso, usa o "umap" para definir chaves das palavras já percorridas. No método <i>arvore()</i>, gera uma árvore 
 </p>
 
 <p align="center">
