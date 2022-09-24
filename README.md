@@ -1,9 +1,11 @@
 # Código de Huffman
 
+<p align="justify">
 Uma das melhores técnicas de compressão conhecidas é devido ao Huffman. Para uma dada distribuiçãao de probabilidades gera um código ótimo, livre de prefixo e de redundância mínima, além de produzir uma sequência de bits aleatórios. Utiliza códigos de tamanho variável para representar os símbolos do texto, que podem ser caracteres ou cadeias de caracteres (digramas, trigramas, n-gramas ou palavras). A ideia básica do algoritmo é atribuir códigos de bits menores para os símbolos mais frequentes no texto, e códigos mais longos para os mais raros.
 
 O algoritmo de Huffman original baseia-se no método guloso e constrói um código ótimo com esforço computacional O(n.logn). Existem novas versões que constroem o código de Huffman com esforço computacional O(n), mas e necessário que as frequências já estejam ordenadas. Como o problema de ordenaçãao tem cota inferior Ω(n.logn), isto é, não existe um algoritmo que consiga ordenar as frequências com esforço computacional menor, o esforço computacional para construir o código de Huffman é Θ(n.logn).
-
+</p>
+  
 <h2> Problema </h2>
 
 <p align="justify">
